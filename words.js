@@ -256,3 +256,6 @@ WORDS.push(
 "while","white","whole","woman","world","worry","worth","write","wrong","yield",
 "young","youth"
 );
+WORDS.push(
+"joker","poker"
+);
