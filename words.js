@@ -59,6 +59,22 @@ const WORDS = [
 "world","worry","worth","write","wrong","yield","young","youth"
 ];
 // WORDLE 5-letter dictionary (Part 2/5)
+WORDS.push(
+"about","above","after","apple","award","basic","below","brown","chair","child",
+"class","color","court","cover","death","early","error","event","faith","force",
+"frame","front","fruit","ghost","grace","grade","grand","grass","green","guide",
+"hotel","house","index","joint","judge","knife","known","label","laugh","layer",
+"level","magic","major","match","metal","model","motor","movie","north","ocean",
+"offer","owner","panel","phase","piece","pilot","pitch","plain","plane","plate",
+"price","pride","print","prize","queen","radio","range","river","rough","royal",
+"rural","scale","scene","scope","sheet","shell","shirt","shock","shoot","shore",
+"sight","skill","sleep","slice","smile","smoke","solid","solve","sorry","speak",
+"spend","spice","split","sport","staff","stage","steam","steel","stone","storm",
+"style","sugar","sweet","table","theme","thick","thing","throw","tight","title",
+"tower","trace","track","trade","treat","trial","trust","truth","twice","uncle",
+"union","unity","upper","usual","visit","vital","waste","watch","wheel","worth",
+"yield","youth"
+);
 
 WORDS.push(
 "abhor","abide","abled","abode","abram","abuts","ached","aches","acids","acorn",
@@ -370,7 +386,103 @@ WORDS.push(
 "waltz","warty","whiff","wimpy","xerox","yacht","yeast","zesty","zonal"
 );
 
+WORDS.push(
+"abbes","abbey","abbot","abeam","abele","abler","ables","abmho","abode","abohm",
+"aboil","aboon","abord","abore","abort","about","above","absit","abuna","abune",
+"abuse","abuts","abuzz","abyss","acari","accoy","acerb","aceta","achar","ached",
+"acher","aches","achoo","acids","acing","acini","ackee","acker","acmes","acmic",
+"acned","acnes","acock","acold","acorn","acred","acres","acrid","acros","acted",
+"actin","acton","actor","acute","acyls","adage","adapt","added","adder","addle",
+"adeem","adept","adhan","adieu","adios","adits","adman","admen","admin","admit",
+"admix","adobe","adobo","adopt","adore","adorn","adown","adoze","adult","adunc",
+"adust","advew","adyta","adzed","adzes","aecia","aedes","aegis","aeons","aerie"
+);
+WORDS.push(
+"afars","afear","affix","afire","afoot","afore","afoul","afrit","afros","agama",
+"agami","agape","agars","agast","agate","agave","agent","agers","agger","aggie",
+"aggri","aggro","aghas","agile","aging","agios","agism","agist","agita","aglee",
+"aglet","agley","aglow","agmas","agoge","agone","agons","agony","agood","agora",
+"agree","agria","agrin","agros","ahead","aheap","ahent","ahigh","ahind","ahing",
+"ahint","ahold","ahull","ahuru","aided","aides","aidoi","aidos","aiery","aigas",
+"ailed","aimed","aimer","ainee","ainga","aioli","aired","airer","airns","airth"
+);
+WORDS.push(
+"ajarz","ajies","ajiva","ajuga","ajwan","akees","akela","akene","aking","akita",
+"akkas","alaap","alack","alamo","aland","alane","alang","alans","alant","alapa",
+"alaps","alarm","alary","alate","alays","albas","albee","album","alcid","alcos",
+"aldea","alder","aldol","aleck","alecs","aleft","aleph","alert","alews","aleye",
+"alfas","algal","algas","algid","algin","algor","algum","alias","alibi","alien",
+"alifs","align","alike","aline","alios","alist","alive","aliya","alkie","alkos",
+"alkyd","alkyl","allay","allee","allel","alley","allis","allod","allot","allow"
+);
+WORDS.push(
+"again","along","always","angry","asked","baker","beach","begin","black","bring",
+"build","buyer","cause","cheap","clean","clear","climb","clock","close","count",
+"daily","dance","doing","dream","drink","drive","earth","eight","enjoy","field",
+"fight","final","floor","found","fresh","front","funny","glass","going","great",
+"green","group","happy","heard","heart","heavy","hello","house","human","image",
+"inside","issue","large","learn","leave","light","lived","local","loved","lucky",
+"maybe","money","month","morning","mouth","music","never","night","north","often",
+"order","other","paper","party","peace","phone","place","plant","point","power",
+"quick","quite","radio","ready","right","round","school","score","sense","serve",
+"seven","short","since","small","sound","south","space","start","state","still",
+"story","study","table","taken","taste","teach","their","there","these","thing",
+"think","three","today","topic","total","touch","train","under","until","value",
+"video","voice","water","where","which","while","white","whole","woman","world",
+"write","wrong","young"
+);
+WORDS.push(
+"abide","abode","adorn","aglow","amity","anode","aping","arbor","ardor","argot",
+"ascot","atone","augur","aural","bairn","balmy","bated","bawdy","bezel","bicep",
+"boney","bosom","briar","briny","brisk","broom","brunt","cairn","canid","caput",
+"cavil","chafe","chard","chime","chirp","chive","civet","clank","cleft","clime",
+"clink","clout","cobra","comet","conch","copse","coral","corny","covey","coyly",
+"crank","creak","crept","crock","crony","crumb","cumin","curio","curly","curry",
+"cutie","dally","debar","decry","defer","deign","demur","denim","deter","dimer",
+"diner","dizzy","dogma","dolly","donor","douse","dread","drier","droll","druid",
+"dryer","dully","dwell","edict","egret","elide","elope","elude","emote","epoxy",
+"erode","ester","ether","ethos","etude","exalt","exert","exile","expel","extol",
+"fable","facet","faint","fairy","farce","fecal","felon","femur","fetus","ficus",
+"fixer","fjord","flack","flaky","flask","fleck","flier","flint","floss","flout",
+"fluke","flume","foamy","folio","foray","forte","frail","freak","friar","froth",
+"fugue","fungi","gaily","girth","glade","gland","glory","gnash","gnome","gourd",
+"grail","gruel","guano","haiku","harem","hedge","hoard","homer","hyena","icily",
+"idiom","imply","inert","irony","ivied","jaunt","jazzy","joust","khaki","kiosk",
+"lapse","latch","leafy","libel","livid","loamy","lunge","mirth","mossy","nymph",
+"omega","ovate","pagan","petal","plaid","pluck","quack","quart","rabid","raven",
+"reedy","rivet","sassy","scowl","serif","skulk","slyly","soggy","sough","swoop",
+"tempo","thyme","umbra","vigor","vixen","waist","waltz","warty","whiff","wimpy",
+"xerox","yeast","zesty","zonal"
+);
+
+
 
 WORDS.push(
 "joker","poker","entry","goast","hours","yours"
 );
+
+
+
+// ===== FINAL: 重複除去 + シャッフル + 最終辞書出力 =====
+
+// 小文字化して5文字のみ念のため保証
+const cleaned = WORDS
+  .map(w => w.toLowerCase())
+  .filter(w => w.length === 5);
+
+// 重複完全除去
+const unique = [...new Set(cleaned)];
+
+// Fisher–Yates シャッフル
+for (let i = unique.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [unique[i], unique[j]] = [unique[j], unique[i]];
+}
+
+// コピペ用に出力
+const output =
+  "const WORDS = [\n" +
+  unique.map(w => `"${w}"`).join(",") +
+  "\n];";
+
+console.log(output);
