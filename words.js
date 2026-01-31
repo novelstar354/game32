@@ -257,5 +257,5 @@ WORDS.push(
 "young","youth"
 );
 WORDS.push(
-"joker","poker"
+"joker","poker","entry"
 );
