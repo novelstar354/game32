@@ -515,11 +515,24 @@ const cleaned = WORDS
 // 重複完全除去
 const unique = [...new Set(cleaned)];
 
-// Fisher–Yates シャッフル
+/* Fisher–Yates シャッフル
 for (let i = unique.length - 1; i > 0; i--) {
   const j = Math.floor(Math.random() * (i + 1));
   [unique[i], unique[j]] = [unique[j], unique[i]];
 }
+*/
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+// 例
+shuffle(WORDS);
+
 
 // コピペ用に出力
 const output =
