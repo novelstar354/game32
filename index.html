@@ -154,7 +154,7 @@ function press(k){
 
 function submit(){
   const w=grid[row].join("").toLowerCase();
-  if(!WORDS.includes(w)) return msg("辞書にありません");
+  if(!WORDS.includes(w)) return msg("Not in Word List");
 
   const a=[...ANSWER];
   const state=Array(5).fill("absent");
