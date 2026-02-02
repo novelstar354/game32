@@ -1,5 +1,3 @@
-// WORDLE 5-letter dictionary (Part 1/5)
-
 const WORDS = [
 "aback","abase","abate","abbey","abbot","abort","about","above","abuse","abyss",
 "actor","acute","adage","adapt","adept","admin","admit","adobe","adopt","adult",
@@ -58,7 +56,7 @@ const WORDS = [
 "weigh","whale","wheat","wheel","where","which","while","white","whole","woman",
 "world","worry","worth","write","wrong","yield","young","youth"
 ];
-// WORDLE 5-letter dictionary (Part 2/5)
+
 WORDS.push(
 "about","above","after","apple","award","basic","below","brown","chair","child",
 "class","color","court","cover","death","early","error","event","faith","force",
@@ -127,7 +125,7 @@ WORDS.push(
 "river","rough","round","route","royal","rugby","rural","scale","scene","scope",
 "score","sense","serve","seven","shade","shake","shall","shape","share","sharp"
 );
-// WORDLE 5-letter dictionary (Part 3/5)
+
 
 WORDS.push(
 "abash","abets","abide","abler","abode","abuse","ached","aches","acids","acmes",
@@ -180,7 +178,7 @@ WORDS.push(
 "river","rough","round","route","royal","rugby","rural","scale","scene","scope",
 "score","sense","serve","seven","shade","shake","shall","shape","share","sharp"
 );
-// WORDLE 5-letter dictionary (Part 4/5)
+
 
 WORDS.push(
 "shelf","shell","shift","shine","shirt","shock","shoot","shore","short","sight",
@@ -228,7 +226,6 @@ WORDS.push(
 "enjoy","enter","equal","equip","error","essay","ethic","evade","event","exact",
 "exist","extra","faith","false","fancy","fatal","fault","feast","fence","fever"
 );
-// WORDLE 5-letter dictionary (Part 5/5)
 
 WORDS.push(
 "feign","fetal","fetch","fiber","fifth","fifty","filly","filmy","filth","finer",
