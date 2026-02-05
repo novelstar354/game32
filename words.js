@@ -495,12 +495,68 @@ WORDS.push(
 );
 
 
-
 WORDS.push(
-"joker","poker","entry","goast","hours","yours"
+"areas","arms","asks","atoms","backs","balls","bands","banks","bases","bears",
+"beats","beds","bells","belts","bends","bills","birds","bitsy","boats","bonds",
+"bones","books","boots","boys","brass","bricks","briefs","brims","brings","builds",
+"calls","calms","camps","cards","cares","carts","cases","casts","cells","chats",
+"chefs","chips","chores","cites","class","claps","claws","clays","clips","clots",
+"clubs","coats","coins","comes","cooks","cools","costs","crops","crowds","cups",
+"darts","dates","dayss","deals","dears","debts","decks","deeds","diets","dimes",
+"disks","doors","downs","draws","drops","drums","ducks","duels","duets","dukes",
+"earns","ears","edges","elves","emails","ends","faces","facts","fails","falls",
+"farms","fears","feeds","feels","fells","fields","files","fills","films","fires",
+"firms","flags","flats","fleas","flies","floats","floods","floors","flows","foams",
+"foods","fools","forms","forts","fours","frames","fries","frogs","funds","gains",
+"games","gases","gates","gears","gifts","girls","gives","glads","goals","goats",
+"grabs","grades","grains","grants","grapes","graphs","grays","greens","grills","grips",
+"groups","guards","guests","guides","habits","hands","hangs","heads","heals","hears",
+"heats","helps","hills","hints","holds","holes","homes","hopes","hours","ideas",
+"items","jokes","jumps","keeps","kicks","kills","kinds","kings","knots","lacks",
+"lands","lanes","lasts","leads","leaks","leans","leaps","leaves","legs","lends",
+"lifts","lights","likes","lines","links","lists","lives","loads","loans","locks",
+"logs","looks","loops","loses","loves","mails","makes","marks","masks","meals",
+"means","meets","mends","miles","minds","mines","misss","modes","moons","moves",
+"names","needs","nests","nets","news","notes","nouns","nurses","oaths","odors",
+"offers","opens","orders","pages","pairs","pants","parks","parts","paths","peaks",
+"pears","peeks","peers","pens","pets","picks","piles","plans","plays","plots",
+"points","polls","pools","ports","posts","press","price","pride","primes","prints",
+"prizes","prods","props","pulls","pushs","quits","races","rails","rains","ranks",
+"rates","reads","rests","rides","rings","risks","rivers","roads","rocks","rolls",
+"rooms","roots","ropes","rules","runs","sails","sales","sands","saves","seals",
+"seams","sears","seats","seeds","seeks","seems","sells","sends","septs","sets",
+"shaps","shares","shifts","ships","shirts","shoes","shoots","shops","shots","shows",
+"sides","signs","skills","skins","slaps","sleeps","slides","slips","slots","slows",
+"smalls","smells","smiles","smokes","snaps","sneaks","snows","soaps","socks","songs",
+"sorts","souls","sounds","soups","spaces","spans","speaks","speeds","spells","spends",
+"spins","spits","spots","sprays","squats","staffs","stags","stains","stamps","stands",
+"stars","stays","steals","steams","steps","sticks","stills","stocks","stones","stops",
+"stores","storms","stoves","straps","straws","strips","studs","styles","sucks","suits",
+"superb","swaps","sways","swims","swings","swords","tables","takes","talks","tanks",
+"tapes","tasks","teams","tears","teens","tells","tends","terms","tests","texts",
+"thats","themes","things","thinks","thirds","those","throws","times","tireds","titles",
+"tolls","tools","tops","tours","towers","towns","tracks","trades","trails","trains",
+"treats","trends","tricks","trips","trusts","truths","turns","types","units","uses",
+"values","views","visits","votes","waits","walks","walls","wants","wards","warns",
+"wastes","waves","wears","weeks","wells","wests","whats","wheels","whites","winds",
+"wings","wipes","wires","wises","words","works","worlds","wounds","writes","years",
+"yells","yours"
 );
 
 
+
+
+WORDS.push(
+"joker","poker","entry","goast","hours","yours","minds"
+);
+
+
+// --- 5文字以外を自動削除 + 小文字統一 + 重複削除 ---
+WORDS = [...new Set(
+  WORDS
+    .map(w => w.toLowerCase().trim())
+    .filter(w => /^[a-z]{5}$/.test(w))
+)];
 
 // ===== FINAL: 重複除去 + シャッフル + 最終辞書出力 =====
 
