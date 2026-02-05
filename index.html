@@ -181,7 +181,7 @@ function submit(){
   emojiResults.push(state.map(s=>s==="correct"?"🟩":s==="present"?"🟨":"◼️").join(""));
   results.textContent=emojiResults.join("\n");
 
-  if(w===ANSWER){done=true;msg("🎉 正解！");}
+  if(w===ANSWER){done=true;msg("Well Done!");}
   else if(++row===ROWS){done=true;msg("💀 "+ANSWER.toUpperCase());}
   col=0;saveData();draw();
 }
@@ -195,6 +195,8 @@ resetBtn.onclick=()=>{
   location.reload();
 };
 
+
+    
 document.addEventListener("keydown",e=>{
   if(e.ctrlKey&&e.altKey&&e.key==="l"){
     overlay.style.display="flex";pass.focus();return;
