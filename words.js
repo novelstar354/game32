@@ -547,7 +547,7 @@ WORDS.push(
 
 
 WORDS.push(
-"joker","poker","entry","goast","hours","yours","minds"
+"joker","poker","entry","goast","hours","yours","minds","retry","cruck","smash","slash","noobs","trash"
 );
 
 
