@@ -531,7 +531,7 @@ WORDS.push(
 "sorts","souls","sounds","soups","spaces","spans","speaks","speeds","spells","spends",
 "spins","spits","spots","sprays","squats","staffs","stags","stains","stamps","stands",
 "stars","stays","steals","steams","steps","sticks","stills","stocks","stones","stops",
-"stores","storms","stoves","straps","straws","strips","studs","styles","sucks","suits",
+"store","storms","stoves","straps","straws","strips","studs","styles","sucks","suits",
 "superb","swaps","sways","swims","swings","swords","tables","takes","talks","tanks",
 "tapes","tasks","teams","tears","teens","tells","tends","terms","tests","texts",
 "thats","themes","things","thinks","thirds","those","throws","times","tireds","titles",
